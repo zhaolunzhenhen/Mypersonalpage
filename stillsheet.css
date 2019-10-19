@@ -31,7 +31,7 @@
 .topnav2 a {
 	float: left;
 	display: block;
-	color: #000000;
+	color: #ff0a0a;
 	text-align: center;
 	padding: 14px 26px;
 	text-decoration: none;
@@ -44,6 +44,23 @@
 	color: #fffb00;
   border-radius:12px;
   background-color:#bf0a0a;
+}
+.topnav3 a {
+	float: left;
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 14px 26px;
+	text-decoration: none;
+	font-size:22px;
+	font-family:courier;
+	transition:color .3s;
+}
+
+.topnav3 a:hover {
+	color: #edbb9d;
+  border-radius:12px;
+  background-color:#140066;
 }
 
 .topright a {
@@ -204,8 +221,10 @@ div.polaroid {
 
 .containerF {
   position: relative;
-  width: 50%;
+  float:left;
+  width:50%;
 }
+
 
 .image {
   opacity: 1;
@@ -227,7 +246,7 @@ div.polaroid {
 }
 
 .containerF:hover .image {
-  opacity: 0.3;
+  opacity: .7;
 }
 
 .containerF:hover .middle {
@@ -243,4 +262,26 @@ div.polaroid {
 
 .hobby {
   font-size:23px;
+}
+
+.text2 {
+  background-color: #140066;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  color:#edbb9d;
+}
+
+.containerS {
+  position: relative;
+  float:left;
+  width:50%;
+}
+
+.containerS:hover .image {
+  opacity: .3;
+}
+
+.containerS:hover .middle {
+  opacity: 1;
 }
